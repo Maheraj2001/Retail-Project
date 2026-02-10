@@ -1,0 +1,80 @@
+{
+  "name": "pl_ingest_to_bronze",
+  "properties": {
+    "description": "Metadata-driven pipeline to ingest source data into Bronze layer via Databricks",
+    "activities": [
+      {
+        "name": "Lookup_IngestionConfig",
+        "type": "Lookup",
+        "description": "Read ingestion configuration table",
+        "typeProperties": {
+          "source": {
+            "type": "AzureSqlSource",
+            "sqlReaderQuery": "SELECT * FROM config.ingestion_metadata WHERE is_active = 1"
+          },
+          "firstRowOnly": false
+        }
+      },
+      {
+        "name": "ForEach_Source",
+        "type": "ForEach",
+        "description": "Iterate over each configured data source",
+        "dependsOn": [
+          {
+            "activity": "Lookup_IngestionConfig",
+            "dependencyConditions": ["Succeeded"]
+          }
+        ],
+        "typeProperties": {
+          "items": "@activity('Lookup_IngestionConfig').output.value",
+          "isSequential": false,
+          "batchCount": 4,
+          "activities": [
+            {
+              "name": "Copy_To_Bronze",
+              "type": "Copy",
+              "description": "Copy raw data to ADLS Bronze container",
+              "typeProperties": {
+                "source": {
+                  "type": "@item().source_type",
+                  "query": "@item().source_query"
+                },
+                "sink": {
+                  "type": "ParquetSink",
+                  "storeSettings": {
+                    "type": "AzureBlobFSWriteSettings"
+                  }
+                }
+              }
+            },
+            {
+              "name": "Run_Bronze_Notebook",
+              "type": "DatabricksNotebook",
+              "description": "Execute Bronze ingestion notebook",
+              "dependsOn": [
+                {
+                  "activity": "Copy_To_Bronze",
+                  "dependencyConditions": ["Succeeded"]
+                }
+              ],
+              "typeProperties": {
+                "notebookPath": "/notebooks/bronze/ingest_raw_data",
+                "baseParameters": {
+                  "source_path": "@item().bronze_path",
+                  "target_table": "@item().target_table",
+                  "file_format": "@item().file_format"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "parameters": {
+      "environment": {
+        "type": "string",
+        "defaultValue": "dev"
+      }
+    }
+  }
+}

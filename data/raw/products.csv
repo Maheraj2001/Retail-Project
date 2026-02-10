@@ -1,0 +1,37 @@
+product_id,product_name,category,sub_category,brand
+PROD-0001,iPhone 15,Technology,Phones,iPhone
+PROD-0002,Galaxy S24,Technology,Phones,Galaxy
+PROD-0003,Pixel 8,Technology,Phones,Pixel
+PROD-0004,OnePlus 12,Technology,Phones,OnePlus
+PROD-0005,MacBook Pro 14,Technology,Laptops,MacBook
+PROD-0006,ThinkPad X1,Technology,Laptops,ThinkPad
+PROD-0007,Dell XPS 15,Technology,Laptops,Dell
+PROD-0008,HP Spectre,Technology,Laptops,HP
+PROD-0009,Wireless Mouse,Technology,Accessories,Wireless
+PROD-0010,USB-C Hub,Technology,Accessories,USB-C
+PROD-0011,Keyboard,Technology,Accessories,Keyboard
+PROD-0012,Monitor Stand,Technology,Accessories,Monitor
+PROD-0013,Ergonomic Chair,Furniture,Chairs,Ergonomic
+PROD-0014,Task Chair,Furniture,Chairs,Task
+PROD-0015,Executive Chair,Furniture,Chairs,Executive
+PROD-0016,Stool,Furniture,Chairs,Stool
+PROD-0017,Standing Desk,Furniture,Tables,Standing
+PROD-0018,Conference Table,Furniture,Tables,Conference
+PROD-0019,Side Table,Furniture,Tables,Side
+PROD-0020,Folding Table,Furniture,Tables,Folding
+PROD-0021,5-Shelf Bookcase,Furniture,Bookcases,5-Shelf
+PROD-0022,3-Shelf Bookcase,Furniture,Bookcases,3-Shelf
+PROD-0023,Corner Shelf,Furniture,Bookcases,Corner
+PROD-0024,Wall Mount,Furniture,Bookcases,Wall
+PROD-0025,Copy Paper 500pk,Office Supplies,Paper,Copy
+PROD-0026,Legal Pads 12pk,Office Supplies,Paper,Legal
+PROD-0027,Sticky Notes,Office Supplies,Paper,Sticky
+PROD-0028,Envelopes 100pk,Office Supplies,Paper,Envelopes
+PROD-0029,3-Ring Binder,Office Supplies,Binders,3-Ring
+PROD-0030,Report Cover,Office Supplies,Binders,Report
+PROD-0031,Clip Folder,Office Supplies,Binders,Clip
+PROD-0032,Presentation Binder,Office Supplies,Binders,Presentation
+PROD-0033,Ballpoint 12pk,Office Supplies,Pens,Ballpoint
+PROD-0034,Gel Pens 8pk,Office Supplies,Pens,Gel
+PROD-0035,Markers 10pk,Office Supplies,Pens,Markers
+PROD-0036,Highlighters 6pk,Office Supplies,Pens,Highlighters

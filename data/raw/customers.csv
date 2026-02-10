@@ -1,0 +1,501 @@
+customer_id,customer_name,segment,region,city,state,country
+CUST-0001,Ivan Davis,Consumer,Central,Detroit,Michigan,United States
+CUST-0002,Joseph Rodriguez,Corporate,East,Hartford,Connecticut,United States
+CUST-0003,Margaret Williams,Consumer,West,San Francisco,California,United States
+CUST-0004,Carlos Johnson,Corporate,South,Atlanta,Georgia,United States
+CUST-0005,Ahmed Moore,Home Office,East,Philadelphia,Pennsylvania,United States
+CUST-0006,Margaret Perez,Consumer,West,Seattle,Washington,United States
+CUST-0007,Michael Garcia,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0008,Hans Taylor,Home Office,South,Charlotte,North Carolina,United States
+CUST-0009,Linda Harris,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0010,Nancy Gonzalez,Corporate,East,Philadelphia,Pennsylvania,United States
+CUST-0011,Charles Garcia,Home Office,East,Baltimore,Maryland,United States
+CUST-0012,Sarah Chen,Corporate,Central,Detroit,Michigan,United States
+CUST-0013,Nancy Thompson,Consumer,Central,Chicago,Illinois,United States
+CUST-0014,Hans Hernandez,Corporate,West,San Francisco,California,United States
+CUST-0015,Fatima Harris,Consumer,West,Seattle,Washington,United States
+CUST-0016,Patricia Anderson,Home Office,Central,St. Louis,Missouri,United States
+CUST-0017,Sarah Jones,Consumer,Central,Detroit,Michigan,United States
+CUST-0018,Olga Santos,Consumer,South,Atlanta,Georgia,United States
+CUST-0019,Thomas Rodriguez,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0020,Margaret Sanchez,Consumer,West,Denver,Colorado,United States
+CUST-0021,Yuki Garcia,Corporate,East,Philadelphia,Pennsylvania,United States
+CUST-0022,Ivan Hernandez,Corporate,South,Charlotte,North Carolina,United States
+CUST-0023,John Harris,Consumer,South,Charlotte,North Carolina,United States
+CUST-0024,Thomas Smith,Corporate,East,Hartford,Connecticut,United States
+CUST-0025,Sarah Perez,Consumer,South,Atlanta,Georgia,United States
+CUST-0026,Fatima Smith,Home Office,Central,Indianapolis,Indiana,United States
+CUST-0027,Barbara Kumar,Home Office,Central,Indianapolis,Indiana,United States
+CUST-0028,Hans Gonzalez,Consumer,West,Denver,Colorado,United States
+CUST-0029,Maria Smith,Corporate,South,Houston,Texas,United States
+CUST-0030,Linda White,Home Office,Central,Detroit,Michigan,United States
+CUST-0031,Patricia Thomas,Home Office,East,New York,New York,United States
+CUST-0032,Yuki Jones,Home Office,West,San Francisco,California,United States
+CUST-0033,Kenji Yamamoto,Home Office,West,Seattle,Washington,United States
+CUST-0034,Maria Patel,Home Office,West,Seattle,Washington,United States
+CUST-0035,Betty White,Consumer,South,Houston,Texas,United States
+CUST-0036,Jessica Anderson,Consumer,East,Hartford,Connecticut,United States
+CUST-0037,Priya Anderson,Corporate,East,New York,New York,United States
+CUST-0038,Ivan Brown,Consumer,East,Boston,Massachusetts,United States
+CUST-0039,John Kumar,Consumer,South,Atlanta,Georgia,United States
+CUST-0040,Raj Rodriguez,Corporate,South,Atlanta,Georgia,United States
+CUST-0041,Wei Clark,Consumer,East,Baltimore,Maryland,United States
+CUST-0042,Matthew Patel,Consumer,East,New York,New York,United States
+CUST-0043,Patricia Sanchez,Corporate,East,Philadelphia,Pennsylvania,United States
+CUST-0044,Richard Gonzalez,Corporate,West,Portland,Oregon,United States
+CUST-0045,Barbara Moore,Consumer,East,Baltimore,Maryland,United States
+CUST-0046,Priya Miller,Consumer,East,New York,New York,United States
+CUST-0047,Jessica Hernandez,Consumer,South,Atlanta,Georgia,United States
+CUST-0048,Betty Brown,Consumer,East,Baltimore,Maryland,United States
+CUST-0049,Thomas Chen,Consumer,South,Atlanta,Georgia,United States
+CUST-0050,Richard Jackson,Consumer,East,Hartford,Connecticut,United States
+CUST-0051,Raj Brown,Corporate,East,New York,New York,United States
+CUST-0052,Aisha Yamamoto,Corporate,West,Los Angeles,California,United States
+CUST-0053,Carlos Garcia,Home Office,East,Hartford,Connecticut,United States
+CUST-0054,John Thomas,Consumer,West,Denver,Colorado,United States
+CUST-0055,Hans Williams,Corporate,South,Charlotte,North Carolina,United States
+CUST-0056,Omar Ali,Consumer,Central,Detroit,Michigan,United States
+CUST-0057,Kenji Lee,Consumer,South,Atlanta,Georgia,United States
+CUST-0058,Kenji Martin,Consumer,East,New York,New York,United States
+CUST-0059,Fatima Miller,Consumer,West,Denver,Colorado,United States
+CUST-0060,Matthew Jones,Home Office,Central,Minneapolis,Minnesota,United States
+CUST-0061,William Khan,Home Office,Central,Indianapolis,Indiana,United States
+CUST-0062,Olga Ali,Consumer,Central,Chicago,Illinois,United States
+CUST-0063,David Taylor,Consumer,East,Hartford,Connecticut,United States
+CUST-0064,Elizabeth Moore,Consumer,West,Seattle,Washington,United States
+CUST-0065,Susan Taylor,Corporate,Central,Chicago,Illinois,United States
+CUST-0066,Jennifer Patel,Home Office,East,New York,New York,United States
+CUST-0067,Lisa Rodriguez,Corporate,Central,Detroit,Michigan,United States
+CUST-0068,Ahmed Patel,Corporate,East,New York,New York,United States
+CUST-0069,Elizabeth Williams,Home Office,West,Portland,Oregon,United States
+CUST-0070,David Williams,Consumer,East,Boston,Massachusetts,United States
+CUST-0071,Susan Thomas,Corporate,Central,Indianapolis,Indiana,United States
+CUST-0072,Mark Martinez,Home Office,West,San Francisco,California,United States
+CUST-0073,Barbara Clark,Consumer,Central,St. Louis,Missouri,United States
+CUST-0074,Kenji Thomas,Consumer,East,Baltimore,Maryland,United States
+CUST-0075,Robert Yamamoto,Consumer,South,Miami,Florida,United States
+CUST-0076,Karen Anderson,Consumer,West,Portland,Oregon,United States
+CUST-0077,Lisa Moore,Home Office,Central,Minneapolis,Minnesota,United States
+CUST-0078,Olga Kumar,Consumer,Central,Chicago,Illinois,United States
+CUST-0079,Linda Taylor,Consumer,Central,Chicago,Illinois,United States
+CUST-0080,Michael Patel,Consumer,Central,St. Louis,Missouri,United States
+CUST-0081,Hans Kumar,Consumer,West,Seattle,Washington,United States
+CUST-0082,Robert Patel,Consumer,West,Seattle,Washington,United States
+CUST-0083,Margaret Jones,Home Office,Central,Indianapolis,Indiana,United States
+CUST-0084,Daniel Davis,Corporate,Central,Indianapolis,Indiana,United States
+CUST-0085,Karen Clark,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0086,David Gonzalez,Consumer,South,Atlanta,Georgia,United States
+CUST-0087,Sophie Martin,Consumer,East,Boston,Massachusetts,United States
+CUST-0088,Charles Wilson,Consumer,Central,St. Louis,Missouri,United States
+CUST-0089,Ahmed Khan,Corporate,South,Atlanta,Georgia,United States
+CUST-0090,Kenji Garcia,Consumer,Central,Chicago,Illinois,United States
+CUST-0091,Jessica Martin,Consumer,West,San Francisco,California,United States
+CUST-0092,Mary Williams,Consumer,South,Charlotte,North Carolina,United States
+CUST-0093,John Chen,Consumer,West,Portland,Oregon,United States
+CUST-0094,Yuki Sanchez,Consumer,East,New York,New York,United States
+CUST-0095,Margaret Anderson,Consumer,South,Houston,Texas,United States
+CUST-0096,Priya Thomas,Home Office,East,Baltimore,Maryland,United States
+CUST-0097,David Chen,Corporate,Central,St. Louis,Missouri,United States
+CUST-0098,Sophie Kumar,Consumer,South,Atlanta,Georgia,United States
+CUST-0099,Wei Khan,Consumer,West,Seattle,Washington,United States
+CUST-0100,Maria Santos,Corporate,Central,St. Louis,Missouri,United States
+CUST-0101,John Jackson,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0102,Raj Garcia,Consumer,West,Portland,Oregon,United States
+CUST-0103,Elizabeth Wilson,Consumer,South,Miami,Florida,United States
+CUST-0104,Raj Chen,Consumer,West,Portland,Oregon,United States
+CUST-0105,Anthony Johnson,Home Office,South,Dallas,Texas,United States
+CUST-0106,James Thompson,Consumer,South,Dallas,Texas,United States
+CUST-0107,Raj Anderson,Consumer,Central,St. Louis,Missouri,United States
+CUST-0108,Yuki Johnson,Consumer,South,Atlanta,Georgia,United States
+CUST-0109,Fatima Rodriguez,Home Office,East,Baltimore,Maryland,United States
+CUST-0110,Aisha Johnson,Consumer,South,Atlanta,Georgia,United States
+CUST-0111,Fatima Lopez,Consumer,South,Miami,Florida,United States
+CUST-0112,Susan Chen,Consumer,South,Miami,Florida,United States
+CUST-0113,Mark Taylor,Home Office,South,Houston,Texas,United States
+CUST-0114,Matthew Anderson,Corporate,East,New York,New York,United States
+CUST-0115,Jessica Gonzalez,Home Office,West,San Francisco,California,United States
+CUST-0116,David Yamamoto,Corporate,West,Portland,Oregon,United States
+CUST-0117,Thomas White,Consumer,East,Philadelphia,Pennsylvania,United States
+CUST-0118,Karen Miller,Corporate,Central,Indianapolis,Indiana,United States
+CUST-0119,Sakura Harris,Consumer,West,Los Angeles,California,United States
+CUST-0120,Aisha Thomas,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0121,Linda Williams,Consumer,South,Miami,Florida,United States
+CUST-0122,Olga Perez,Consumer,South,Dallas,Texas,United States
+CUST-0123,Nancy Chen,Corporate,South,Atlanta,Georgia,United States
+CUST-0124,Maria Moore,Corporate,South,Dallas,Texas,United States
+CUST-0125,Margaret Moore,Consumer,West,Los Angeles,California,United States
+CUST-0126,Sarah Khan,Consumer,South,Charlotte,North Carolina,United States
+CUST-0127,Sophie Harris,Consumer,South,Miami,Florida,United States
+CUST-0128,Barbara Santos,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0129,Sarah Moore,Corporate,West,Los Angeles,California,United States
+CUST-0130,Jessica Clark,Consumer,West,Portland,Oregon,United States
+CUST-0131,Ahmed Johnson,Consumer,West,Portland,Oregon,United States
+CUST-0132,Kenji White,Consumer,Central,St. Louis,Missouri,United States
+CUST-0133,Priya Perez,Consumer,South,Miami,Florida,United States
+CUST-0134,Karen Taylor,Consumer,West,Seattle,Washington,United States
+CUST-0135,Linda Lopez,Consumer,South,Miami,Florida,United States
+CUST-0136,Aisha Ali,Corporate,East,Philadelphia,Pennsylvania,United States
+CUST-0137,Charles Anderson,Consumer,Central,Chicago,Illinois,United States
+CUST-0138,Sarah Williams,Home Office,Central,Detroit,Michigan,United States
+CUST-0139,Ivan Santos,Consumer,East,Hartford,Connecticut,United States
+CUST-0140,Charles Yamamoto,Consumer,Central,Detroit,Michigan,United States
+CUST-0141,Patricia Taylor,Home Office,South,Houston,Texas,United States
+CUST-0142,John Sanchez,Consumer,East,Philadelphia,Pennsylvania,United States
+CUST-0143,Elizabeth Martin,Consumer,West,Los Angeles,California,United States
+CUST-0144,Priya Clark,Corporate,West,Denver,Colorado,United States
+CUST-0145,Anthony Khan,Home Office,Central,Indianapolis,Indiana,United States
+CUST-0146,Margaret Martin,Corporate,East,Hartford,Connecticut,United States
+CUST-0147,Michael Wilson,Corporate,Central,Chicago,Illinois,United States
+CUST-0148,William Thomas,Consumer,East,Philadelphia,Pennsylvania,United States
+CUST-0149,James Clark,Consumer,South,Miami,Florida,United States
+CUST-0150,Robert Anderson,Consumer,Central,St. Louis,Missouri,United States
+CUST-0151,John Anderson,Home Office,West,Portland,Oregon,United States
+CUST-0152,Linda Anderson,Corporate,Central,Detroit,Michigan,United States
+CUST-0153,John Brown,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0154,Omar Jackson,Consumer,South,Miami,Florida,United States
+CUST-0155,Betty Moore,Corporate,South,Dallas,Texas,United States
+CUST-0156,Jennifer Williams,Home Office,Central,Indianapolis,Indiana,United States
+CUST-0157,Thomas Johnson,Consumer,East,Boston,Massachusetts,United States
+CUST-0158,Omar Williams,Corporate,West,Portland,Oregon,United States
+CUST-0159,Maria Khan,Home Office,West,Denver,Colorado,United States
+CUST-0160,Margaret Santos,Home Office,South,Miami,Florida,United States
+CUST-0161,Mark Perez,Consumer,East,Philadelphia,Pennsylvania,United States
+CUST-0162,Lisa Clark,Corporate,Central,St. Louis,Missouri,United States
+CUST-0163,Priya Williams,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0164,Betty Kumar,Home Office,East,Hartford,Connecticut,United States
+CUST-0165,Fatima Clark,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0166,Yuki Khan,Corporate,West,Seattle,Washington,United States
+CUST-0167,Priya Rodriguez,Home Office,South,Dallas,Texas,United States
+CUST-0168,Linda Johnson,Home Office,West,San Francisco,California,United States
+CUST-0169,Karen Smith,Corporate,East,Philadelphia,Pennsylvania,United States
+CUST-0170,Linda Chen,Home Office,West,Portland,Oregon,United States
+CUST-0171,Charles Kumar,Corporate,South,Dallas,Texas,United States
+CUST-0172,Wei Thomas,Consumer,West,Portland,Oregon,United States
+CUST-0173,Richard Kumar,Corporate,West,Los Angeles,California,United States
+CUST-0174,Sarah Clark,Consumer,Central,Chicago,Illinois,United States
+CUST-0175,Charles Martin,Home Office,South,Atlanta,Georgia,United States
+CUST-0176,Ahmed Yamamoto,Consumer,South,Dallas,Texas,United States
+CUST-0177,Daniel Gonzalez,Home Office,West,Denver,Colorado,United States
+CUST-0178,Anthony Anderson,Home Office,South,Houston,Texas,United States
+CUST-0179,Daniel Yamamoto,Corporate,South,Dallas,Texas,United States
+CUST-0180,Kenji Martinez,Consumer,East,Philadelphia,Pennsylvania,United States
+CUST-0181,Carlos Perez,Home Office,South,Houston,Texas,United States
+CUST-0182,Maria Chen,Consumer,West,Portland,Oregon,United States
+CUST-0183,Olga Martinez,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0184,Sophie Sanchez,Corporate,Central,Indianapolis,Indiana,United States
+CUST-0185,Anthony Lee,Corporate,South,Charlotte,North Carolina,United States
+CUST-0186,Robert Jones,Consumer,Central,Detroit,Michigan,United States
+CUST-0187,Michael Miller,Consumer,Central,Chicago,Illinois,United States
+CUST-0188,Robert Lee,Corporate,Central,Minneapolis,Minnesota,United States
+CUST-0189,Nancy Patel,Consumer,South,Charlotte,North Carolina,United States
+CUST-0190,Sakura Lopez,Consumer,East,Hartford,Connecticut,United States
+CUST-0191,Anthony Thomas,Consumer,West,San Francisco,California,United States
+CUST-0192,Fatima Taylor,Consumer,East,Baltimore,Maryland,United States
+CUST-0193,Charles Hernandez,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0194,Karen Patel,Corporate,South,Miami,Florida,United States
+CUST-0195,Richard Harris,Home Office,East,Philadelphia,Pennsylvania,United States
+CUST-0196,Anthony Thompson,Corporate,Central,Chicago,Illinois,United States
+CUST-0197,Kenji Sanchez,Consumer,East,Hartford,Connecticut,United States
+CUST-0198,Yuki Jackson,Corporate,West,Denver,Colorado,United States
+CUST-0199,Ivan Gonzalez,Corporate,West,Los Angeles,California,United States
+CUST-0200,Ivan Williams,Consumer,South,Houston,Texas,United States
+CUST-0201,Aisha White,Corporate,East,Boston,Massachusetts,United States
+CUST-0202,Daniel Clark,Consumer,West,Denver,Colorado,United States
+CUST-0203,Nancy Ali,Corporate,Central,Detroit,Michigan,United States
+CUST-0204,Thomas Yamamoto,Home Office,Central,Minneapolis,Minnesota,United States
+CUST-0205,John Martinez,Corporate,West,Portland,Oregon,United States
+CUST-0206,Priya White,Consumer,South,Houston,Texas,United States
+CUST-0207,Thomas Davis,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0208,Anthony White,Consumer,West,Portland,Oregon,United States
+CUST-0209,Mary Lee,Home Office,West,Los Angeles,California,United States
+CUST-0210,Ivan Chen,Home Office,Central,St. Louis,Missouri,United States
+CUST-0211,Linda Rodriguez,Consumer,East,Boston,Massachusetts,United States
+CUST-0212,Yuki Davis,Consumer,West,Portland,Oregon,United States
+CUST-0213,Fatima White,Corporate,South,Charlotte,North Carolina,United States
+CUST-0214,Elizabeth Clark,Corporate,South,Charlotte,North Carolina,United States
+CUST-0215,Mark Moore,Consumer,Central,Detroit,Michigan,United States
+CUST-0216,Jessica White,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0217,Olga Thompson,Consumer,Central,Detroit,Michigan,United States
+CUST-0218,Jennifer Wilson,Corporate,East,New York,New York,United States
+CUST-0219,Lisa Thomas,Home Office,West,Los Angeles,California,United States
+CUST-0220,Priya Wilson,Corporate,West,Seattle,Washington,United States
+CUST-0221,Elizabeth Smith,Consumer,West,San Francisco,California,United States
+CUST-0222,Raj Taylor,Corporate,East,New York,New York,United States
+CUST-0223,David Smith,Consumer,West,Denver,Colorado,United States
+CUST-0224,Daniel Johnson,Consumer,East,Philadelphia,Pennsylvania,United States
+CUST-0225,Mark Ali,Consumer,East,Baltimore,Maryland,United States
+CUST-0226,Ahmed White,Corporate,East,Baltimore,Maryland,United States
+CUST-0227,Carlos Anderson,Home Office,East,Hartford,Connecticut,United States
+CUST-0228,Karen Chen,Corporate,East,New York,New York,United States
+CUST-0229,Wei Sanchez,Consumer,East,Baltimore,Maryland,United States
+CUST-0230,Ahmed Jones,Home Office,Central,Indianapolis,Indiana,United States
+CUST-0231,Elizabeth Jones,Consumer,Central,St. Louis,Missouri,United States
+CUST-0232,Hans Ali,Consumer,South,Houston,Texas,United States
+CUST-0233,Linda Wilson,Consumer,West,Portland,Oregon,United States
+CUST-0234,Lisa Chen,Consumer,East,Boston,Massachusetts,United States
+CUST-0235,Margaret Lee,Corporate,Central,Detroit,Michigan,United States
+CUST-0236,Sakura Yamamoto,Consumer,East,New York,New York,United States
+CUST-0237,Margaret Miller,Corporate,Central,Detroit,Michigan,United States
+CUST-0238,Priya Brown,Corporate,Central,Chicago,Illinois,United States
+CUST-0239,Mark Thompson,Home Office,South,Houston,Texas,United States
+CUST-0240,Matthew Miller,Corporate,West,San Francisco,California,United States
+CUST-0241,Joseph Miller,Consumer,Central,Chicago,Illinois,United States
+CUST-0242,Sarah Anderson,Home Office,East,Hartford,Connecticut,United States
+CUST-0243,Kenji Moore,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0244,Lisa Thompson,Consumer,West,Denver,Colorado,United States
+CUST-0245,Ivan Johnson,Consumer,West,Portland,Oregon,United States
+CUST-0246,Mark Chen,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0247,Daniel Garcia,Home Office,West,San Francisco,California,United States
+CUST-0248,Sophie Brown,Corporate,Central,St. Louis,Missouri,United States
+CUST-0249,Kenji Patel,Consumer,South,Dallas,Texas,United States
+CUST-0250,Sarah Wilson,Corporate,East,Boston,Massachusetts,United States
+CUST-0251,Margaret Davis,Consumer,South,Charlotte,North Carolina,United States
+CUST-0252,James Wilson,Consumer,West,San Francisco,California,United States
+CUST-0253,Thomas Jackson,Consumer,East,Baltimore,Maryland,United States
+CUST-0254,Margaret Lopez,Consumer,West,Denver,Colorado,United States
+CUST-0255,Priya Thompson,Consumer,East,Baltimore,Maryland,United States
+CUST-0256,Mary Chen,Home Office,Central,Indianapolis,Indiana,United States
+CUST-0257,Ivan Clark,Consumer,South,Houston,Texas,United States
+CUST-0258,Daniel Hernandez,Home Office,South,Miami,Florida,United States
+CUST-0259,Michael Thomas,Consumer,South,Charlotte,North Carolina,United States
+CUST-0260,Jennifer Sanchez,Home Office,Central,Detroit,Michigan,United States
+CUST-0261,Lisa Hernandez,Consumer,East,Hartford,Connecticut,United States
+CUST-0262,Carlos Gonzalez,Home Office,Central,Minneapolis,Minnesota,United States
+CUST-0263,Jessica Miller,Consumer,West,San Francisco,California,United States
+CUST-0264,Hans Martinez,Corporate,East,Philadelphia,Pennsylvania,United States
+CUST-0265,Fatima Khan,Corporate,Central,Minneapolis,Minnesota,United States
+CUST-0266,Elizabeth Khan,Consumer,South,Miami,Florida,United States
+CUST-0267,Sarah Brown,Consumer,East,Boston,Massachusetts,United States
+CUST-0268,Robert Brown,Consumer,Central,Chicago,Illinois,United States
+CUST-0269,Olga Garcia,Corporate,South,Dallas,Texas,United States
+CUST-0270,Aisha Williams,Consumer,West,Seattle,Washington,United States
+CUST-0271,Hans Yamamoto,Corporate,East,Baltimore,Maryland,United States
+CUST-0272,Michael Perez,Home Office,East,Hartford,Connecticut,United States
+CUST-0273,Olga Lopez,Consumer,South,Dallas,Texas,United States
+CUST-0274,Maria Ali,Corporate,Central,Minneapolis,Minnesota,United States
+CUST-0275,Charles Harris,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0276,Patricia Perez,Consumer,East,Hartford,Connecticut,United States
+CUST-0277,Charles Taylor,Corporate,West,Seattle,Washington,United States
+CUST-0278,Jennifer Martinez,Home Office,Central,St. Louis,Missouri,United States
+CUST-0279,David Garcia,Consumer,South,Miami,Florida,United States
+CUST-0280,David Ali,Consumer,South,Charlotte,North Carolina,United States
+CUST-0281,Nancy Johnson,Consumer,West,San Francisco,California,United States
+CUST-0282,Lisa Santos,Consumer,West,San Francisco,California,United States
+CUST-0283,Michael Kumar,Corporate,East,Boston,Massachusetts,United States
+CUST-0284,Sophie Rodriguez,Corporate,West,San Francisco,California,United States
+CUST-0285,Barbara Hernandez,Corporate,East,Baltimore,Maryland,United States
+CUST-0286,Nancy Thomas,Home Office,Central,St. Louis,Missouri,United States
+CUST-0287,Joseph Thomas,Consumer,South,Atlanta,Georgia,United States
+CUST-0288,Nancy Khan,Consumer,Central,St. Louis,Missouri,United States
+CUST-0289,Carlos Ali,Consumer,West,San Francisco,California,United States
+CUST-0290,Hans Rodriguez,Home Office,East,Baltimore,Maryland,United States
+CUST-0291,Nancy Miller,Corporate,East,Boston,Massachusetts,United States
+CUST-0292,Jennifer Hernandez,Consumer,West,Portland,Oregon,United States
+CUST-0293,Jennifer Anderson,Home Office,Central,Chicago,Illinois,United States
+CUST-0294,Mark Brown,Consumer,Central,Detroit,Michigan,United States
+CUST-0295,Anthony Garcia,Consumer,East,Boston,Massachusetts,United States
+CUST-0296,Elizabeth Rodriguez,Consumer,South,Atlanta,Georgia,United States
+CUST-0297,Sophie Smith,Home Office,East,Boston,Massachusetts,United States
+CUST-0298,Susan Martinez,Corporate,South,Houston,Texas,United States
+CUST-0299,Charles Thomas,Consumer,East,Philadelphia,Pennsylvania,United States
+CUST-0300,John Davis,Home Office,South,Charlotte,North Carolina,United States
+CUST-0301,Raj Johnson,Corporate,West,San Francisco,California,United States
+CUST-0302,Charles Patel,Consumer,Central,Detroit,Michigan,United States
+CUST-0303,Omar Clark,Consumer,East,Hartford,Connecticut,United States
+CUST-0304,Nancy Jones,Home Office,East,Baltimore,Maryland,United States
+CUST-0305,Wei Williams,Corporate,Central,Minneapolis,Minnesota,United States
+CUST-0306,Mary Thompson,Corporate,Central,Detroit,Michigan,United States
+CUST-0307,Kenji Miller,Corporate,Central,Detroit,Michigan,United States
+CUST-0308,Robert Thompson,Corporate,West,Portland,Oregon,United States
+CUST-0309,Wei Lopez,Home Office,East,Baltimore,Maryland,United States
+CUST-0310,Robert Jackson,Consumer,West,Los Angeles,California,United States
+CUST-0311,Daniel Martin,Corporate,South,Miami,Florida,United States
+CUST-0312,Robert Gonzalez,Consumer,East,Boston,Massachusetts,United States
+CUST-0313,Sarah Davis,Corporate,South,Dallas,Texas,United States
+CUST-0314,Ahmed Harris,Consumer,West,Portland,Oregon,United States
+CUST-0315,Yuki White,Home Office,Central,Chicago,Illinois,United States
+CUST-0316,Margaret Garcia,Consumer,West,Denver,Colorado,United States
+CUST-0317,Charles Lee,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0318,Karen Khan,Corporate,South,Atlanta,Georgia,United States
+CUST-0319,Ahmed Thompson,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0320,Nancy Kumar,Home Office,West,Los Angeles,California,United States
+CUST-0321,Robert Rodriguez,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0322,Anthony Williams,Corporate,South,Miami,Florida,United States
+CUST-0323,John Rodriguez,Corporate,South,Miami,Florida,United States
+CUST-0324,Olga Moore,Consumer,East,New York,New York,United States
+CUST-0325,Maria Harris,Home Office,East,Boston,Massachusetts,United States
+CUST-0326,Thomas Khan,Consumer,Central,St. Louis,Missouri,United States
+CUST-0327,Richard Davis,Consumer,East,Baltimore,Maryland,United States
+CUST-0328,Barbara Khan,Home Office,Central,Minneapolis,Minnesota,United States
+CUST-0329,Karen Hernandez,Corporate,West,Seattle,Washington,United States
+CUST-0330,Linda Gonzalez,Corporate,West,Portland,Oregon,United States
+CUST-0331,Mary White,Corporate,Central,St. Louis,Missouri,United States
+CUST-0332,Sophie Garcia,Consumer,South,Dallas,Texas,United States
+CUST-0333,Maria Clark,Corporate,East,Philadelphia,Pennsylvania,United States
+CUST-0334,Daniel Jones,Consumer,Central,Detroit,Michigan,United States
+CUST-0335,Priya Lopez,Corporate,West,Portland,Oregon,United States
+CUST-0336,Carlos Brown,Home Office,West,Seattle,Washington,United States
+CUST-0337,William Hernandez,Consumer,West,Seattle,Washington,United States
+CUST-0338,Maria Jackson,Home Office,Central,Detroit,Michigan,United States
+CUST-0339,Ivan Moore,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0340,Carlos Hernandez,Corporate,West,San Francisco,California,United States
+CUST-0341,Kenji Perez,Home Office,East,New York,New York,United States
+CUST-0342,Olga Taylor,Corporate,South,Charlotte,North Carolina,United States
+CUST-0343,Olga Martin,Consumer,South,Miami,Florida,United States
+CUST-0344,Fatima Jones,Corporate,West,Portland,Oregon,United States
+CUST-0345,Mark Yamamoto,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0346,Elizabeth Lee,Home Office,Central,Minneapolis,Minnesota,United States
+CUST-0347,Betty Rodriguez,Corporate,East,Boston,Massachusetts,United States
+CUST-0348,Jessica Chen,Consumer,South,Atlanta,Georgia,United States
+CUST-0349,Elizabeth Miller,Consumer,South,Charlotte,North Carolina,United States
+CUST-0350,Mark Thomas,Home Office,West,Seattle,Washington,United States
+CUST-0351,Omar Lee,Consumer,West,Portland,Oregon,United States
+CUST-0352,Carlos Chen,Consumer,Central,St. Louis,Missouri,United States
+CUST-0353,Mary Garcia,Home Office,South,Atlanta,Georgia,United States
+CUST-0354,Susan Thompson,Consumer,Central,St. Louis,Missouri,United States
+CUST-0355,Charles Smith,Home Office,South,Atlanta,Georgia,United States
+CUST-0356,Robert Sanchez,Consumer,West,Seattle,Washington,United States
+CUST-0357,Priya Jackson,Consumer,South,Charlotte,North Carolina,United States
+CUST-0358,David Miller,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0359,Nancy Martinez,Consumer,South,Charlotte,North Carolina,United States
+CUST-0360,Robert Williams,Consumer,Central,St. Louis,Missouri,United States
+CUST-0361,Elizabeth Kumar,Consumer,Central,Detroit,Michigan,United States
+CUST-0362,Betty Martin,Corporate,South,Charlotte,North Carolina,United States
+CUST-0363,Karen Yamamoto,Home Office,Central,Minneapolis,Minnesota,United States
+CUST-0364,Sakura Davis,Home Office,Central,Chicago,Illinois,United States
+CUST-0365,Thomas Anderson,Corporate,South,Atlanta,Georgia,United States
+CUST-0366,Elizabeth Thomas,Consumer,East,Philadelphia,Pennsylvania,United States
+CUST-0367,Mary Khan,Consumer,West,Portland,Oregon,United States
+CUST-0368,Susan Clark,Corporate,South,Houston,Texas,United States
+CUST-0369,Susan Lee,Home Office,South,Charlotte,North Carolina,United States
+CUST-0370,Barbara Chen,Home Office,Central,Indianapolis,Indiana,United States
+CUST-0371,Matthew Taylor,Corporate,West,San Francisco,California,United States
+CUST-0372,Sarah Martin,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0373,Susan Santos,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0374,Sarah Jackson,Consumer,South,Dallas,Texas,United States
+CUST-0375,Matthew Martinez,Consumer,Central,Chicago,Illinois,United States
+CUST-0376,Matthew Khan,Corporate,South,Atlanta,Georgia,United States
+CUST-0377,Richard Moore,Home Office,Central,Detroit,Michigan,United States
+CUST-0378,Jessica Brown,Corporate,West,San Francisco,California,United States
+CUST-0379,Patricia Miller,Consumer,South,Houston,Texas,United States
+CUST-0380,Sakura Rodriguez,Consumer,West,Portland,Oregon,United States
+CUST-0381,Olga Yamamoto,Consumer,West,Seattle,Washington,United States
+CUST-0382,Daniel Jackson,Corporate,East,Hartford,Connecticut,United States
+CUST-0383,Joseph Williams,Home Office,West,Portland,Oregon,United States
+CUST-0384,Barbara Williams,Home Office,South,Dallas,Texas,United States
+CUST-0385,Barbara Jackson,Home Office,East,Boston,Massachusetts,United States
+CUST-0386,Omar Miller,Home Office,Central,Minneapolis,Minnesota,United States
+CUST-0387,Fatima Ali,Consumer,West,Denver,Colorado,United States
+CUST-0388,Fatima Moore,Consumer,East,Boston,Massachusetts,United States
+CUST-0389,William Chen,Corporate,West,Los Angeles,California,United States
+CUST-0390,Lisa Jackson,Corporate,West,San Francisco,California,United States
+CUST-0391,Margaret Kumar,Consumer,South,Houston,Texas,United States
+CUST-0392,Barbara Rodriguez,Consumer,West,Los Angeles,California,United States
+CUST-0393,Thomas Harris,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0394,Kenji Davis,Consumer,West,Portland,Oregon,United States
+CUST-0395,Sakura Kumar,Home Office,Central,Chicago,Illinois,United States
+CUST-0396,Ivan Jackson,Consumer,West,San Francisco,California,United States
+CUST-0397,Elizabeth Chen,Corporate,Central,St. Louis,Missouri,United States
+CUST-0398,Priya Yamamoto,Corporate,West,San Francisco,California,United States
+CUST-0399,Sakura Garcia,Corporate,Central,Chicago,Illinois,United States
+CUST-0400,Omar Davis,Consumer,West,Denver,Colorado,United States
+CUST-0401,Raj Martinez,Consumer,South,Houston,Texas,United States
+CUST-0402,Sakura Wilson,Corporate,South,Houston,Texas,United States
+CUST-0403,Carlos Khan,Home Office,South,Atlanta,Georgia,United States
+CUST-0404,Carlos Clark,Consumer,East,Hartford,Connecticut,United States
+CUST-0405,Fatima Martin,Corporate,South,Miami,Florida,United States
+CUST-0406,Aisha Jones,Consumer,Central,Chicago,Illinois,United States
+CUST-0407,John Yamamoto,Consumer,South,Atlanta,Georgia,United States
+CUST-0408,David Clark,Consumer,South,Dallas,Texas,United States
+CUST-0409,Anthony Harris,Consumer,West,Seattle,Washington,United States
+CUST-0410,Raj Sanchez,Corporate,West,Los Angeles,California,United States
+CUST-0411,Mary Martin,Consumer,South,Charlotte,North Carolina,United States
+CUST-0412,Sarah Gonzalez,Home Office,East,New York,New York,United States
+CUST-0413,Kenji Clark,Corporate,East,Philadelphia,Pennsylvania,United States
+CUST-0414,Susan Jones,Consumer,East,Baltimore,Maryland,United States
+CUST-0415,Hans Brown,Consumer,East,Baltimore,Maryland,United States
+CUST-0416,Ahmed Anderson,Corporate,East,Philadelphia,Pennsylvania,United States
+CUST-0417,Carlos Jackson,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0418,Hans Lee,Consumer,West,Denver,Colorado,United States
+CUST-0419,Joseph Clark,Consumer,East,Hartford,Connecticut,United States
+CUST-0420,Aisha Lopez,Corporate,South,Charlotte,North Carolina,United States
+CUST-0421,Yuki Brown,Home Office,South,Charlotte,North Carolina,United States
+CUST-0422,Karen Harris,Consumer,South,Atlanta,Georgia,United States
+CUST-0423,Joseph Martin,Home Office,West,Portland,Oregon,United States
+CUST-0424,Patricia Clark,Home Office,West,Portland,Oregon,United States
+CUST-0425,Jessica Taylor,Consumer,East,Baltimore,Maryland,United States
+CUST-0426,Nancy Garcia,Corporate,West,Los Angeles,California,United States
+CUST-0427,Sarah Harris,Corporate,East,New York,New York,United States
+CUST-0428,Richard Wilson,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0429,Hans Wilson,Consumer,West,Denver,Colorado,United States
+CUST-0430,Anthony Chen,Corporate,Central,Minneapolis,Minnesota,United States
+CUST-0431,Carlos Santos,Consumer,South,Miami,Florida,United States
+CUST-0432,Susan White,Consumer,East,Hartford,Connecticut,United States
+CUST-0433,Joseph Martinez,Consumer,South,Miami,Florida,United States
+CUST-0434,Elizabeth Gonzalez,Consumer,South,Charlotte,North Carolina,United States
+CUST-0435,Jessica Santos,Corporate,Central,Minneapolis,Minnesota,United States
+CUST-0436,Yuki Santos,Consumer,Central,Detroit,Michigan,United States
+CUST-0437,David Santos,Consumer,East,Hartford,Connecticut,United States
+CUST-0438,Kenji Brown,Corporate,South,Atlanta,Georgia,United States
+CUST-0439,Ivan Anderson,Consumer,West,Los Angeles,California,United States
+CUST-0440,Susan Kumar,Consumer,East,Hartford,Connecticut,United States
+CUST-0441,Ivan Yamamoto,Corporate,East,New York,New York,United States
+CUST-0442,Raj Clark,Consumer,Central,Indianapolis,Indiana,United States
+CUST-0443,Charles Johnson,Corporate,South,Atlanta,Georgia,United States
+CUST-0444,Maria Martinez,Consumer,Central,Minneapolis,Minnesota,United States
+CUST-0445,Sarah Sanchez,Consumer,South,Dallas,Texas,United States
+CUST-0446,Omar Thomas,Home Office,West,Seattle,Washington,United States
+CUST-0447,Olga Williams,Consumer,South,Dallas,Texas,United States
+CUST-0448,Patricia Smith,Corporate,East,Baltimore,Maryland,United States
+CUST-0449,Maria Williams,Consumer,South,Miami,Florida,United States
+CUST-0450,Sakura Moore,Home Office,East,Philadelphia,Pennsylvania,United States
+CUST-0451,Betty Jones,Consumer,West,Denver,Colorado,United States
+CUST-0452,Anthony Perez,Consumer,West,Los Angeles,California,United States
+CUST-0453,Carlos Thompson,Consumer,South,Atlanta,Georgia,United States
+CUST-0454,John Perez,Corporate,South,Miami,Florida,United States
+CUST-0455,Mary Moore,Corporate,South,Dallas,Texas,United States
+CUST-0456,Joseph Thompson,Corporate,South,Dallas,Texas,United States
+CUST-0457,Barbara Harris,Consumer,Central,Detroit,Michigan,United States
+CUST-0458,John Garcia,Consumer,South,Atlanta,Georgia,United States
+CUST-0459,Jennifer Smith,Home Office,South,Miami,Florida,United States
+CUST-0460,Sarah Miller,Consumer,West,Portland,Oregon,United States
+CUST-0461,Ahmed Kumar,Consumer,East,New York,New York,United States
+CUST-0462,Matthew Garcia,Corporate,Central,St. Louis,Missouri,United States
+CUST-0463,James Jackson,Consumer,East,Hartford,Connecticut,United States
+CUST-0464,Jessica Ali,Consumer,South,Atlanta,Georgia,United States
+CUST-0465,David Moore,Consumer,South,Atlanta,Georgia,United States
+CUST-0466,John Hernandez,Consumer,South,Miami,Florida,United States
+CUST-0467,Wei Jones,Consumer,West,Portland,Oregon,United States
+CUST-0468,David Martin,Consumer,South,Miami,Florida,United States
+CUST-0469,Lisa Khan,Consumer,West,Seattle,Washington,United States
+CUST-0470,Wei Lee,Consumer,South,Miami,Florida,United States
+CUST-0471,Charles Santos,Home Office,West,Seattle,Washington,United States
+CUST-0472,Anthony Moore,Home Office,South,Miami,Florida,United States
+CUST-0473,Sakura Johnson,Home Office,South,Atlanta,Georgia,United States
+CUST-0474,Ahmed Jackson,Home Office,East,Baltimore,Maryland,United States
+CUST-0475,Sakura Santos,Consumer,Central,Detroit,Michigan,United States
+CUST-0476,Thomas Martinez,Corporate,South,Houston,Texas,United States
+CUST-0477,Aisha Sanchez,Corporate,South,Charlotte,North Carolina,United States
+CUST-0478,Robert White,Corporate,East,New York,New York,United States
+CUST-0479,Jessica Thompson,Consumer,East,Hartford,Connecticut,United States
+CUST-0480,Olga Sanchez,Home Office,Central,St. Louis,Missouri,United States
+CUST-0481,Michael Smith,Consumer,West,Denver,Colorado,United States
+CUST-0482,Maria Anderson,Consumer,South,Dallas,Texas,United States
+CUST-0483,Elizabeth Thompson,Home Office,South,Houston,Texas,United States
+CUST-0484,Charles Clark,Home Office,East,New York,New York,United States
+CUST-0485,Karen Perez,Consumer,West,Denver,Colorado,United States
+CUST-0486,Wei Thompson,Consumer,South,Dallas,Texas,United States
+CUST-0487,Karen Williams,Home Office,East,New York,New York,United States
+CUST-0488,Lisa Miller,Corporate,West,San Francisco,California,United States
+CUST-0489,Maria Lopez,Corporate,Central,Indianapolis,Indiana,United States
+CUST-0490,Margaret Chen,Consumer,South,Atlanta,Georgia,United States
+CUST-0491,Barbara Patel,Consumer,West,Portland,Oregon,United States
+CUST-0492,Aisha Patel,Consumer,West,San Francisco,California,United States
+CUST-0493,Raj Lopez,Consumer,West,Portland,Oregon,United States
+CUST-0494,Kenji Santos,Corporate,Central,Indianapolis,Indiana,United States
+CUST-0495,Anthony Sanchez,Corporate,Central,Minneapolis,Minnesota,United States
+CUST-0496,Sakura Martin,Home Office,East,Philadelphia,Pennsylvania,United States
+CUST-0497,Carlos Harris,Consumer,West,Denver,Colorado,United States
+CUST-0498,Anthony Patel,Consumer,West,Denver,Colorado,United States
+CUST-0499,William Santos,Consumer,West,Seattle,Washington,United States
+CUST-0500,Ahmed Brown,Home Office,East,Baltimore,Maryland,United States

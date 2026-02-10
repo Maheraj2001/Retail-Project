@@ -1,0 +1,68 @@
+{
+  "name": "pl_bronze_to_gold",
+  "properties": {
+    "description": "Orchestrate Silver and Gold layer transformations via Databricks",
+    "activities": [
+      {
+        "name": "Run_Silver_Transform",
+        "type": "DatabricksNotebook",
+        "description": "Execute Silver layer cleansing and SCD merge",
+        "typeProperties": {
+          "notebookPath": "/notebooks/silver/transform_cleanse",
+          "baseParameters": {
+            "source_table": "@pipeline().parameters.source_table",
+            "target_table": "@pipeline().parameters.target_table",
+            "primary_keys": "@pipeline().parameters.primary_keys",
+            "scd_type": "@pipeline().parameters.scd_type"
+          }
+        }
+      },
+      {
+        "name": "Run_Gold_Aggregations",
+        "type": "DatabricksNotebook",
+        "description": "Build Gold layer aggregations and KPIs",
+        "dependsOn": [
+          {
+            "activity": "Run_Silver_Transform",
+            "dependencyConditions": ["Succeeded"]
+          }
+        ],
+        "typeProperties": {
+          "notebookPath": "/notebooks/gold/build_aggregations"
+        }
+      },
+      {
+        "name": "Export_To_Snowflake",
+        "type": "Copy",
+        "description": "Export Gold data to Snowflake for BI consumption",
+        "dependsOn": [
+          {
+            "activity": "Run_Gold_Aggregations",
+            "dependencyConditions": ["Succeeded"]
+          }
+        ],
+        "typeProperties": {
+          "source": {
+            "type": "ParquetSource",
+            "storeSettings": {
+              "type": "AzureBlobFSReadSettings",
+              "recursive": true
+            }
+          },
+          "sink": {
+            "type": "SnowflakeSink",
+            "importSettings": {
+              "type": "SnowflakeImportCopyCommand"
+            }
+          }
+        }
+      }
+    ],
+    "parameters": {
+      "source_table": { "type": "string" },
+      "target_table": { "type": "string" },
+      "primary_keys": { "type": "string" },
+      "scd_type": { "type": "string", "defaultValue": "1" }
+    }
+  }
+}

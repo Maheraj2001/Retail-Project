@@ -1,0 +1,58 @@
+name: Python CI
+
+on:
+  pull_request:
+    paths:
+      - 'api/**'
+      - 'databricks/**'
+      - 'tests/**'
+  push:
+    branches: [main]
+    paths:
+      - 'api/**'
+      - 'databricks/**'
+      - 'tests/**'
+
+jobs:
+  lint-and-test:
+    name: Lint & Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r api/requirements.txt ruff
+
+      - name: Lint with Ruff
+        run: ruff check api/ databricks/ tests/
+
+      - name: Run tests
+        run: pytest tests/ -v --tb=short
+
+  docker-build:
+    name: Docker Build
+    runs-on: ubuntu-latest
+    needs: lint-and-test
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t datalakehouse-api:test ./api
+
+      - name: Verify container starts
+        run: |
+          docker run -d --name test-api -p 8000:8000 \
+            -e SNOWFLAKE_ACCOUNT=test \
+            -e SNOWFLAKE_USER=test \
+            -e SNOWFLAKE_PASSWORD=test \
+            datalakehouse-api:test || true
+          sleep 3
+          docker logs test-api
+          docker stop test-api || true
